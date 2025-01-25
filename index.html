@@ -3,23 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Bisness promotion</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
+
   <body>
-    <header>
-      <a href="./index.html"><img src="logo@2x.png" alt="logo" />product</a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./prising.html">Pricing</a></li>
-          <li><a href="./costumers.html">Customers</a></li>
-          <li><a href="./resources">Resources</a></li>
+    <header class="header">
+      <section class="header-container container">
+        <nav class="navigation">
+          <a href="./index.html" class="header-logo"
+            ><img src="logo@2x.png" alt="logo" /> product</a
+          >
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="./index.html" class="nav-list-link active">Product</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./prising.html" class="nav-list-link">Pricing</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./costumers.html" class="nav-list-link">Customers</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./resources" class="nav-list-link">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-list-btn">
+          <li class="header-list-item">
+            <button type="button" class="header-btn-signin">Sign in</button>
+          </li>
+          <li class="header-list-item">
+            <button type="button" class="header-btn-signup">Sign up</button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><button>Sign in</button></li>
-        <li><button>Sign up</button></li>
-      </ul>
+      </section>
     </header>
     <section>
       <h1>Work at the speed of thought</h1>
